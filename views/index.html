@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web</title>
+    <link href="../styles/common.css" rel="stylesheet">
+    <script src="http://api.map.baidu.com/api?v=2.0&ak=LelFSt6BfykGf8m3PB5zr8LaXAG2cMg6"></script>
+</head>
+<body>
+<!--顶部-->
+<header class="header left">
+    <div class="header_center left" style="margin-left: 35%">
+        <h2><strong>WEB驾驶舱</strong></h2>
+    </div>
+</header>
+<!--内容部分-->
+<div class="con left">
+    <!--统计分析图-->
+    <div class="div_any">
+        <div class="left div_any01">
+            <div class="div_any_child">
+                <div class="div_any_title"><img src="../images/title_1.png">饼状统计图</div>
+                <p id="pieChart1" class="p_chart"><img src="../images/bing.jpg" style="width: 100%;height: 100%"></img></p>
+            </div>
+            <div class="div_any_child">
+                <div class="div_any_title"><img src="../images/title_2.png">柱状统计图</div>
+                <p id="histogramChart" class="p_chart"><img src="../images/zhu.jpg" style="width: 100%;height: 100%"></img></p>
+            </div>
+        </div>
+        <div class="div_any02 left ">
+            <div class="div_any_child div_height">
+                <div class="div_any_title any_title_width"><img src="../images/title_0.png">东莞市地图 </div>
+                <div style="padding: 3%;"><img id="map"  src="http://api.map.baidu.com/staticimage/v2?ak=CmVpBxsdUaeEctcGMznZ0oo8ek6kUobW&width=670&center=东莞&height=645&zoom=10&scale=1"/></div>
+                
+            </div>
+        </div>
+        <div class="right div_any01">
+            <div class="div_any_child">
+                <div class="div_any_title"><img src="../images/title_3.png">视频区</div>
+               <video width="100%" height="100%" controls>
+  <source src="images/movie.mp4" type="video/mp4">
+</video>
+               
+            </div>
+            <div class="div_any_child">
+                <div class="div_any_title"><img src="../images/title_4.png">报警信息区</div>
+                <p id="lineChart2" class="p_chart">
+                    <marquee direction="up" scrolldelay="10" scrollamount="1" loop="-1" bahavior="scroll" hspace="20" vspace="10" onmouseover="this.stop()" onmouseout="this.start()"  width="100%" height="90%">
+                    <ul style="margin-left: 18%">
+                        <li><a>12306成功推出候补购票功能</a></li>
+                        <li><a>春运火车票23日正式开售！！！</a></li>
+                        <li><a>抢火车票靠‘加速包’，心累</a></li>
+                        <li><a>再见了，纸质火车票</a></li>
+                        <li><a>春运不找“黄牛”购票，做合法公民</a></li>
+                        <li><a>支付宝可接受行程通知 ？</a></li>
+                        <li><a>火车“编程师” 坚守岗位迎新年</a></li>
+                        <li><a>热门路线火车票一开售即被抢光</a></li>
+                        <li><a>印度“开挂”火车是真的吗？</a></li>
+                        <li><a>群众是无bai法进入公安内网du的</a></li>
+                        <li><a>因为公安内网与公众网是物理隔绝bai的</a></li>
+                        <li><a>如果是报案人想了解案件侦查过程</a></li>
+                        <li><a>警方在不违反规定的前提下可以告诉报案人。 </a></li>
+                    </ul>
+                    </marquee>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
